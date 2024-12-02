@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-18 16:47:00.581485",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_q2gi",
+  "loan_period",
+  "max_articles",
+  "overdue_fine_per_day",
+  "damage_fine_amount",
+  "lost_fine_rate"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_q2gi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "loan_period",
+   "fieldtype": "Int",
+   "label": "Loan Period "
+  },
+  {
+   "fieldname": "max_articles",
+   "fieldtype": "Int",
+   "label": "Maximum Number of Issued Articles"
+  },
+  {
+   "fieldname": "overdue_fine_per_day",
+   "fieldtype": "Currency",
+   "label": "Overdue Fine Per Day"
+  },
+  {
+   "fieldname": "damage_fine_amount",
+   "fieldtype": "Currency",
+   "label": "Damage Fine Amount"
+  },
+  {
+   "fieldname": "lost_fine_rate",
+   "fieldtype": "Percent",
+   "label": "Lost Fine Rate"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-11-27 14:38:46.997812",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
